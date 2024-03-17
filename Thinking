@@ -1,0 +1,43 @@
+
+Milestone 1: Voice to Text
+
+Technical Goal: Input a recorded file and output text to the terminal using TBD technology.
+Actions: Create test cases with 2 recordings.
+Milestone 2: Record Capability
+
+Technical Goal: Develop a script to start a 5-second recording and output a recorded file.
+Milestone 3: Integration of Recording and Text Output
+
+Combine the capabilities of Milestones 1 and 2 to send a recording and receive text output. This also involves testing each milestone to identify and resolve any issues.
+Milestone 4 and 5: Email Integration
+
+Choose between developing a script to send emails or to take in text and output an email. This decision impacts the direction for Milestone 6.
+Milestone 6: Combining Milestones 4 and 5
+
+Milestone 7: Integration with Milestone 3
+
+Combine the functionalities developed in previous milestones for a cohesive operation.
+Milestone 8: Web Server Setup
+
+Set up an HTTP server to serve a static HTML page, listening on port 3000. This is the foundation for web interaction.
+Milestone 9: Record Creation on Static Page
+
+Enable users to create voice recordings directly on the served web page.
+Milestone 10: Capture Recording from Browser
+
+Implement a new route (e.g., /record) to capture audio stream data from the browser to a file.
+Milestone 11: Integration of Web Recording with Backend Processing
+
+Combine web recording capabilities with the backend processing established in previous milestones.
+Milestone 12: Backend Processing of Recordings
+
+Focus on processing the input recording to output text on the backend side.
+Milestone 13: Real-time Audio Streaming
+
+Implement a real-time data stream from the frontend to the backend, likely using websockets, to facilitate live voice to text conversion.
+Milestone 14: Streaming Text-to-Speech
+
+Explore text-to-speech capabilities using external APIs such as OpenAI's GPT or Google Cloud's Speech-to-Text services.
+Milestone 15: Display Generated Text in Browser
+
+Show the text generated from speech in the web browser, completing the loop for a speech-to-text application.
